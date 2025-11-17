@@ -1,0 +1,1 @@
+nuitka.cmd --standalone bas2.py

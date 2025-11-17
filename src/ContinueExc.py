@@ -1,0 +1,2 @@
+class ContinueExc(Exception):
+    pass

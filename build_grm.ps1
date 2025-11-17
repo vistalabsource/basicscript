@@ -1,0 +1,1 @@
+antlr4.exe -Dlanguage=Python3 -o lib -visitor -no-listener grammar/BasicScript.g4

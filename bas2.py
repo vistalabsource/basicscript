@@ -26,17 +26,18 @@ def main(path):
 if __name__ == "__main__":
     args = sys.argv
     if len(sys.argv) < 2:
-        print("Solve Interpreter v1.0.0")
-        print("Usage: solve <script> [options]")
+        print("Basc Interpreter v1.0.0")
+        print("Usage: basc <script> [options]")
         print("--version: print version information")
         print("--help: print help information")
         sys.exit(1)
     if '--version' in args:
-        print("Solve Interpreter v1.0.0")
+        print("Basc v1.0.0")
         sys.exit(0)
     if '--help' in args:
-        print("Usage: solve <script> [options]")
+        print("Usage: basc <script> [options]")
         print("--version: print version information")
         print("--help: print help information")
         sys.exit(0)
+
     main(sys.argv[1])

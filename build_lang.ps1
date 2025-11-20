@@ -1,1 +1,1 @@
-nuitka.cmd --standalone bas2.py
+nuitka.cmd --standalone basc.py

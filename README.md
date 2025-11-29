@@ -55,7 +55,7 @@ Pythonでモジュールを自作してBascの機能を拡張できます
 ※注意：Pythonでモジュールを自作する場合、必ずpylibという名前のディレクトリを作成して、その中にPythonスクリプトを入れてください。
 
 以下、基本的な機能です。
-``` python:add.py
+``` python
 def add(x, y):
     return x + y
 exports {
@@ -63,7 +63,7 @@ exports {
 }
 ```
 ```
-include add;
+include ファイル名;
 
 write(add(1 + 1));
 // -> 2
